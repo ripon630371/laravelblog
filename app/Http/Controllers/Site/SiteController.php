@@ -10,4 +10,9 @@ class SiteController extends Controller
     public function index(){
         return view('frontend.home');
     }
+    public function sign_up(){
+        return view('auth.sign-up');
+    }
+
+
 }

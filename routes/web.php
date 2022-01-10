@@ -14,3 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [SiteController::class,'index'])->name('home');
+Route::get('/sign_up',[SiteController::class,'sign_up'])->name('signup');
+
